@@ -134,7 +134,7 @@ section article img {
 	height: auto;
 }
 
-aside div.asideSection iframe {
+aside div iframe {
     width: 95%;
     height: auto;
     aspect-ratio: 16/9;
@@ -151,7 +151,7 @@ section article p + p {
 section article p + a {
     width: 150px;
     line-height: 1.9rem;
-    color: white;
+    color: $color-fuente-principal;
     text-decoration: none;
     background: url(../img/bg-vermas.png);
     display: block;
@@ -159,7 +159,7 @@ section article p + a {
     transition: padding-left 1s;
     &:hover {
         padding-left: 20px;
-        color: white;
+        color: $color-fuente-principal;
     }
 }
 
