@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
     font-size: 3rem;
-    background: url("../img/bg-h2.png") left bottom no-repeat $color-contraste;
+    background: url("../img/bg-h2.png") center bottom no-repeat $color-contraste;
 }
 
 h3 {
@@ -174,20 +174,26 @@ aside ul {
         color: yellow!important;
     }
 }
-
+/* Pisando estilos de lista Boostrap*/
 .list-group-item-dark {
     color: $color-fuente-principal!important;
     background-color: $color-contraste!important;
 }
 
 .list-group-item {
-    border-bottom: 1px dotted rgba(255,255,255,1);
+    border-bottom: 1px dotted $color-fuente-principal;
 }
 
 /* Estilos de SkateBoarding.html */
 .dosColumnas {
     column-count: 2;
-  }
+}
+
+
+/* Estilos de snowboarding.html */
+.tresColumnas {
+    column-count: 3;
+}
 
 .dosColumnas, .tresColumnas {
     column-gap: 25px;
@@ -196,10 +202,10 @@ aside ul {
     -ms-column-gap: 25px;
     -moz-column-gap: 25px;
     -webkit-column-gap: 25px;
-    column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted $color-fuente-principal;
     /* Linea punteada de color gris */
-    -o-column-rule: 1px dotted #ccc;
-    -moz-column-rule: 1px dotted #ccc;
-    -webkit-column-rule: 1px dotted #ccc;
-    -ms-column-rule: 1px dotted #ccc;
+    -o-column-rule: 1px dotted $color-fuente-principal;
+    -moz-column-rule: 1px dotted $color-fuente-principal;
+    -webkit-column-rule: 1px dotted $color-fuente-principal;
+    -ms-column-rule: 1px dotted $color-fuente-principal;
 }

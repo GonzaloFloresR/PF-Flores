@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 42, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
 h2 {
   font-size: 3rem;
-  background: url("../img/bg-h2.png") left bottom no-repeat black;
+  background: url("../img/bg-h2.png") center bottom no-repeat black;
 }
 
 /* line 47, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
@@ -196,6 +196,7 @@ aside ul {
   color: yellow !important;
 }
 
+/* Pisando estilos de lista Boostrap*/
 /* line 178, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
 .list-group-item-dark {
   color: white !important;
@@ -213,7 +214,13 @@ aside ul {
   column-count: 2;
 }
 
-/* line 192, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+/* Estilos de snowboarding.html */
+/* line 194, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+.tresColumnas {
+  column-count: 3;
+}
+
+/* line 198, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
 .dosColumnas, .tresColumnas {
   column-gap: 25px;
   /* Separacion entre columnas Parrafos*/
@@ -221,12 +228,12 @@ aside ul {
   -ms-column-gap: 25px;
   -moz-column-gap: 25px;
   -webkit-column-gap: 25px;
-  column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted white;
   /* Linea punteada de color gris */
-  -o-column-rule: 1px dotted #ccc;
-  -moz-column-rule: 1px dotted #ccc;
-  -webkit-column-rule: 1px dotted #ccc;
-  -ms-column-rule: 1px dotted #ccc;
+  -o-column-rule: 1px dotted white;
+  -moz-column-rule: 1px dotted white;
+  -webkit-column-rule: 1px dotted white;
+  -ms-column-rule: 1px dotted white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
