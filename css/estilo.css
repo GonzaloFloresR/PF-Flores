@@ -207,4 +207,26 @@ aside ul {
   border-bottom: 1px dotted white;
 }
 
+/* Estilos de SkateBoarding.html */
+/* line 188, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+.dosColumnas {
+  column-count: 2;
+}
+
+/* line 192, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+.dosColumnas, .tresColumnas {
+  column-gap: 25px;
+  /* Separacion entre columnas Parrafos*/
+  -o-column-gap: 25px;
+  -ms-column-gap: 25px;
+  -moz-column-gap: 25px;
+  -webkit-column-gap: 25px;
+  column-rule: 1px dotted #ccc;
+  /* Linea punteada de color gris */
+  -o-column-rule: 1px dotted #ccc;
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  -ms-column-rule: 1px dotted #ccc;
+}
+
 /*# sourceMappingURL=estilo.css.map */

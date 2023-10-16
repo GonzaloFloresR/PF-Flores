@@ -183,3 +183,23 @@ aside ul {
 .list-group-item {
     border-bottom: 1px dotted rgba(255,255,255,1);
 }
+
+/* Estilos de SkateBoarding.html */
+.dosColumnas {
+    column-count: 2;
+  }
+
+.dosColumnas, .tresColumnas {
+    column-gap: 25px;
+    /* Separacion entre columnas Parrafos*/
+    -o-column-gap: 25px;
+    -ms-column-gap: 25px;
+    -moz-column-gap: 25px;
+    -webkit-column-gap: 25px;
+    column-rule: 1px dotted #ccc;
+    /* Linea punteada de color gris */
+    -o-column-rule: 1px dotted #ccc;
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    -ms-column-rule: 1px dotted #ccc;
+}
