@@ -211,19 +211,13 @@ aside ul {
     -ms-column-rule: 1px dotted $color-fuente-principal;
 }
 /* Estilos de contacto.html */
-aside div.mapa iframe {
-    width: 80%;
-    height: 400px;
+aside .mapa iframe {
+    height:400px;
 }
 
 .Mapa__pie {
-    color: yellow;
-    line-height: 30px;
-    border: 2px dotted yellow;
-    border-left: 0px;
-    border-right: 0px;
-    display: block;
-    text-align: center;
-    background-color: black;
+    line-height:30px;
+    border-style:dotted;
+    display:block;
 }
 

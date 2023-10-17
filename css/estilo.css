@@ -238,21 +238,15 @@ aside ul {
 
 /* Estilos de contacto.html */
 /* line 214, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
-aside div.mapa iframe {
-  width: 80%;
+aside .mapa iframe {
   height: 400px;
 }
 
-/* line 219, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+/* line 218, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
 .Mapa__pie {
-  color: yellow;
   line-height: 30px;
-  border: 2px dotted yellow;
-  border-left: 0px;
-  border-right: 0px;
+  border-style: dotted;
   display: block;
-  text-align: center;
-  background-color: black;
 }
 
 /*# sourceMappingURL=estilo.css.map */
