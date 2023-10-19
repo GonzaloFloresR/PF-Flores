@@ -249,4 +249,20 @@ aside .mapa iframe {
   display: block;
 }
 
+@media (max-width: 768px) {
+  /* line 225, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+  .navbar-brand img {
+    width: 13%;
+  }
+  /* line 228, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+  .dosColumnas {
+    column-count: 1;
+  }
+  /* Estilos de snowboarding.html */
+  /* line 234, ../../../../../../../../../../../../../Applications/MAMP/htdocs/Boostrap100/sass/estilo.scss */
+  .tresColumnas {
+    column-count: 1;
+  }
+}
+
 /*# sourceMappingURL=estilo.css.map */

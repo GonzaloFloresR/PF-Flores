@@ -221,3 +221,18 @@ aside .mapa iframe {
     display:block;
 }
 
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 13%;
+    }
+    .dosColumnas {
+        column-count: 1;
+    }
+    
+    
+    /* Estilos de snowboarding.html */
+    .tresColumnas {
+        column-count: 1;
+    }
+}
+
